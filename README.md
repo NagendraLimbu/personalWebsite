@@ -68,3 +68,15 @@ Make sure to use sudo npm install -g npm if on a Mac. You can also update all ou
     install/update latest node release
     install/update latest LTS node release
 
+
+
+
+# Git
+# Add your local project to new Github repo
+
+git add .
+git commit -m "Commit message"
+git push origin main
+git remote add origin https://github.com/NdagiStanley/new-repository.git
+git branch -M `main`
+git push -u origin `main`
