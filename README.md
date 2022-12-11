@@ -80,3 +80,8 @@ git push origin main
 git remote add origin https://github.com/NdagiStanley/new-repository.git
 git branch -M `main`
 git push -u origin `main`
+
+
+# COMMANDS
+create Service: ng g s serviceName
+create Module: ng g m moduleName
